@@ -17,4 +17,3 @@ var B = " and this is the end of the string" //created a variable for Sent2
 
 document.write(A+B) //wrote an expression to concatenate Sent1 and Sent2??
 
-var C = "document.getElementById('demo').innerHTML=Date()"
