@@ -34,7 +34,7 @@
                 activePlayer = 'X';
             }
             //this function plays placement sound.
-            Audio('./media/place.mp3');
+            audio('./media/place.mp3');
             //this condition checks to see if it is the computers turn.
             if (activePlayer === 'O') {
                 //this function disables clicking for computers turn.
@@ -217,7 +217,7 @@ function resetGame() {
     //this for loop iterates through each HTML square element.
     for (let i = 0; i < 9; i++) {
         //this variable gets HTML element i.
-        let square = document.getElementById(string(i));
+        let square = document.getElementById(String(i));
         //this removes our elements backgroundimage.
         square.style.backgroundImage = '';
     }
